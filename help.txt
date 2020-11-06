@@ -1,0 +1,59 @@
+GravStar v1.04  Oct 2020
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Move mouse to top of window to reveal menu, there you can adjust Edit->Preferences
+
+This game has no sound effects.
+
+'left/right cursor keys' for rotation
+'up cursor' for thrust
+'ctrl' to fire ammo
+'shift' for chaff, deploy these sparingly as they add to your damage.
+'space' for missile, deploy these sparingly as they add to your damage.
+
+'p' for pause
+
+'m' to add meteor (asteroid)
+
+'g' to add a gravity obj
+
+'b' to add a magnetic mine obj
+
+'0' disable damage, see futher below
+
+You are yellow, cpu is green.
+
+Ship to ship collisions add to your damage, too much damage stops access to missiles/chaff and will destroy a ship when it reaches 100%.
+
+Watch out for the homing missle, yours and theirs, they take a short while to arm once in flight, and they are fatal if struck, use chaff counter measure to divert cpu's missile.
+
+Collisions with meteor can be fatal.
+
+Damage is repaired slowly over time, your damage is also shown as a red bar at bottom of window, it will flash when critical.
+
+To repair all damage, wait for the 'medic' cross to appear and try to meet with it.
+
+Missiles and chaff deployment add to your damage, they won't be avail if your damage is near 100%.
+
+Collect magnetic mines by passing slowly by them, your hold on them is tenuous and they can be lost via high speed or enemy ship proximity, fire them at a distant cpu ship to cause a fragment cloud, these will damage cpu ship, but fragments you create will also damage your ship.
+
+If you get caught by a grav object, try applying thrust at opportune times to build up momentum in the same direction (a bit like pushing a playground swing).
+
+
+
+'z' launch an enemy missile.
+
+
+Try '0' to disable deaths (damage figures will disappear),  this enables unlimited resources, keep pressing 'space' and 'z' to see a missile storm, creates nice swirling patterns.
+Add some meteors with 'm' and grav objs with 'g'.
+
+
+
+
+Config
+~~~~~~
+Edit 'open_editor.sh' and specify your favourite text edit, this will allow the opening of 'help.txt' while program is running.
+e.g: gedit $1&
+
+You can force where the config file should be read/stored and what its name should be, like this: 
+./gravstar --cf ~/.gravstar.ini
+
