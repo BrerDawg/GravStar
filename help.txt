@@ -1,5 +1,8 @@
 GravStar v1.04  Oct 2020
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+source code: https://github.com/BrerDawg/GravStar
+
 Move mouse to top of window to reveal menu, there you can adjust Edit->Preferences
 
 This game has no sound effects.
