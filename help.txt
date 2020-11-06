@@ -54,6 +54,10 @@ Config
 Edit 'open_editor.sh' and specify your favourite text edit, this will allow the opening of 'help.txt' while program is running.
 e.g: gedit $1&
 
+give 'open_editor.sh' exec permissions:
+sudo chmod 777 open_editor.sh
+
+
 You can force where the config file should be read/stored and what its name should be, like this: 
 ./gravstar --cf ~/.gravstar.ini
 
