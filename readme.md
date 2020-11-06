@@ -23,7 +23,7 @@ make
 (no need to install)
 
 
-How to Run
+##How to Run
 
  
 ./gravstar
