@@ -11,7 +11,8 @@ Code used to also compile and run on Windows via msys/mingw, but this has not be
 
 
 How to Build
-~~~~~~~~~~~~~ 
+
+ 
 Create a folder (choose a folder path without white spaces else the 'open_editor.sh' script below won't work), give it read/write/execution permissions
 
 Put all files in this folder and type:
@@ -23,7 +24,8 @@ make
 
 
 How to Run
-~~~~~~~~~~~ 
+
+ 
 ./gravstar
 
 It will create one config file in same folder: 'gravstar.ini'
