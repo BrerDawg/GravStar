@@ -45,7 +45,7 @@ You can force where the config file should be read/stored and what its name shou
 ./gravstar --cf ~/.gravstar.ini
 
 
-Some of the code is repurposed from other projects I've tinkered with over the years, so excuse the antiquated c style, evolving conventions and inefficiencies. I've added features to it over some years, so coding ideas may not be implemented uniformly and appear ad-hoc. It started as a few Newtonian physics demos, but now it's a game - Enjoy.
+Some of the code is repurposed from other projects I've tinkered with over the years, so excuse the antiquated c style, evolving conventions and inefficiencies. I've added features to it over a long period, so coding ideas may not be implemented uniformly and appear ad-hoc. It started as a few Newtonian physics demos, but now it's a game - Enjoy.
 
 
 ![Screeshot](gravstar.png)
