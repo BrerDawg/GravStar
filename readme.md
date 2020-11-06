@@ -10,7 +10,7 @@ Compiles with GNU GCC on Ubuntu 18.04, 20.04
 Code used to also compile and run on Windows via msys/mingw, but this has not been tested for some time, so may no longer compile or may perform badly.
 
 
-#How to Build
+# How to Build
 
  
 Create a folder (choose a folder path without white spaces else the 'open_editor.sh' script below won't work), give it read/write/execution permissions
@@ -23,7 +23,7 @@ make
 (no need to install)
 
 
-##How to Run
+## How to Run
 
  
 ./gravstar
